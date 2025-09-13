@@ -1,0 +1,212 @@
+C:\Users\samanta\GOTTA\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\samanta\GOTTA\bin\Debug\net9.0\appsettings.json
+C:\Users\samanta\GOTTA\bin\Debug\net9.0\GOTTA.staticwebassets.runtime.json
+C:\Users\samanta\GOTTA\bin\Debug\net9.0\GOTTA.staticwebassets.endpoints.json
+C:\Users\samanta\GOTTA\bin\Debug\net9.0\GOTTA.exe
+C:\Users\samanta\GOTTA\bin\Debug\net9.0\GOTTA.deps.json
+C:\Users\samanta\GOTTA\bin\Debug\net9.0\GOTTA.runtimeconfig.json
+C:\Users\samanta\GOTTA\bin\Debug\net9.0\GOTTA.dll
+C:\Users\samanta\GOTTA\bin\Debug\net9.0\GOTTA.pdb
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\GOTTA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\GOTTA.AssemblyInfoInputs.cache
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\GOTTA.AssemblyInfo.cs
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\GOTTA.csproj.CoreCompileInputs.cache
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\GOTTA.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\GOTTA.RazorAssemblyInfo.cache
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\GOTTA.RazorAssemblyInfo.cs
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\scopedcss\bundle\GOTTA.styles.css
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\scopedcss\projectbundle\GOTTA.bundle.scp.css
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\vcci53auom-5j5u7ytck7.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\uvshpskaar-5x1jyvz0vh.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\ad1tu11p9o-xtgq7j64f1.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\e3e2qqmkmq-tw2gsehrly.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\jb8a5cx7f1-rtqnzn2k3r.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\70cf6942qw-61n19gt1b8.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\dehnmvg1zm-xtxxf3hu2r.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\inat7p9dfs-bqjiyaj88i.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\1dl38srzeb-c2jlpeoesf.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\mgl1dzpexn-erw9l3u2r3.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\ighartb12l-aexeepp0ev.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\71gfptj7t0-d7shbmvgxk.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\0wdcj8rpms-ausgxo2sd3.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\ffw06svqyo-k8d9w2qqmf.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\akmq07lfpl-cosvhxvwiu.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\rtg1mhobkm-ub07r2b239.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\61kqb1qbdx-fvhpjtyr6v.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\228mpl19rc-b7pk76d08c.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\bv270a9weh-fsbi9cje9m.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\xhc9y9q8ee-rzd6atqjts.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\1uxmxfr2rk-ee0r1s7dh0.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\pos9eeojs6-dxx9fxp4il.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\q4n5cgcogb-jd9uben2k1.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\9fr0hxg3r9-khv3u5hwcm.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\3bgdcxcset-r4e9w2rdcm.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\xcye45uyms-lcd1t2u6c8.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\vrg33a5a2t-c2oey78nd0.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\iyvqpwol5d-tdbxkamptv.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\z9zge3s80r-j5mq2jizvt.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\481dskczln-06098lyss8.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\0k6jbns2w4-nvvlpmu67g.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\1azsyp9v58-s35ty4nyc5.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\sqjo96w5mv-pj5nd1wqec.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\31t2oebp1c-46ein0sx1k.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\rlwwvvonvh-v0zj4ognzu.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\htpo8pvmzo-37tfw0ft22.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\sc65cs1o7n-hrwsygsryq.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\326w0378mu-pk9g2wxc8p.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\2xkj1b3ogn-ft3s53vfgj.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\vk5sqaxaed-6cfz1n2cew.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\gxduyyopay-6pdc2jztkx.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\1t4feoech8-493y06b0oq.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\i7dsrbdcce-iovd86k7lj.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\4csx2la6bw-vr1egmr9el.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\jevgri3512-kbrnm935zg.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\tkeswn67gb-jj8uyg4cgr.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\xeq8ang5hf-y7v9cxd14o.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\yjnh6p4oc4-notf2xhcfb.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\lw2o8gjlpw-h1s4sie4z3.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\pbxm0m3ezz-63fj8s7r0e.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\9hkeay7yzd-0j3bgjxly4.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\cn1ra5lhjs-47otxtyo56.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\icxk5l7fyp-4v8eqarkd7.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\6hyeeat0qd-356vix0kms.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\c9b8ycqx28-83jwlth58m.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\901057ij4w-mrlpezrjn3.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\m6n2pxwi00-lzl9nlhx6b.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\4eorcgw1r1-ag7o75518u.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\qgu5kxsn73-x0q3zqp4vz.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\6y8s9ih0nl-0i3buxo5is.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\lp6oskthpn-o1o13a6vjx.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\0k272gq2dm-ttgo8qnofa.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\fcrxm6hvws-2z0ns9nrw6.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\9a28aa1vsq-muycvpuwrr.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\zfncy41rkx-87fc7y1x7t.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\wmrknsfvdl-mlv21k5csn.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\GOTTA.dll
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\refint\GOTTA.dll
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\GOTTA.pdb
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\GOTTA.genruntimeconfig.cache
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\ref\GOTTA.dll
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\xsxxsdzxmp-03q315ivwz.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\d1a6gwwg2i-03q315ivwz.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\08xq245vlg-nkuowfgr3b.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\ce3vjnfo7v-5ro6yt79zw.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\2r9boj2v5m-5eruyevgeo.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\9v4tb565yv-wk9kjwluqr.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\x53wo4ym04-f8j2acilj5.gz
+C:\Users\samanta\GOTTA\obj\Debug\net9.0\compressed\h9idb765ag-f3vtk06xvw.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\bin\Debug\net9.0\appsettings.Development.json
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\bin\Debug\net9.0\appsettings.json
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\bin\Debug\net9.0\GOTTA.staticwebassets.runtime.json
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\bin\Debug\net9.0\GOTTA.staticwebassets.endpoints.json
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\bin\Debug\net9.0\GOTTA.exe
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\bin\Debug\net9.0\GOTTA.deps.json
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\bin\Debug\net9.0\GOTTA.runtimeconfig.json
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\bin\Debug\net9.0\GOTTA.dll
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\bin\Debug\net9.0\GOTTA.pdb
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\GOTTA.GeneratedMSBuildEditorConfig.editorconfig
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\GOTTA.AssemblyInfoInputs.cache
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\GOTTA.AssemblyInfo.cs
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\GOTTA.csproj.CoreCompileInputs.cache
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\GOTTA.MvcApplicationPartsAssemblyInfo.cache
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\GOTTA.RazorAssemblyInfo.cache
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\GOTTA.RazorAssemblyInfo.cs
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\scopedcss\bundle\GOTTA.styles.css
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\scopedcss\projectbundle\GOTTA.bundle.scp.css
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\2r9boj2v5m-5eruyevgeo.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\08xq245vlg-nkuowfgr3b.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\vcci53auom-5j5u7ytck7.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\9v4tb565yv-wk9kjwluqr.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\uvshpskaar-5x1jyvz0vh.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\h9idb765ag-f3vtk06xvw.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\ad1tu11p9o-xtgq7j64f1.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\x53wo4ym04-f8j2acilj5.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\ce3vjnfo7v-5ro6yt79zw.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\e3e2qqmkmq-tw2gsehrly.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\jb8a5cx7f1-rtqnzn2k3r.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\70cf6942qw-61n19gt1b8.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\dehnmvg1zm-xtxxf3hu2r.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\inat7p9dfs-bqjiyaj88i.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\1dl38srzeb-c2jlpeoesf.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\mgl1dzpexn-erw9l3u2r3.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\ighartb12l-aexeepp0ev.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\71gfptj7t0-d7shbmvgxk.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\0wdcj8rpms-ausgxo2sd3.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\ffw06svqyo-k8d9w2qqmf.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\akmq07lfpl-cosvhxvwiu.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\rtg1mhobkm-ub07r2b239.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\61kqb1qbdx-fvhpjtyr6v.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\228mpl19rc-b7pk76d08c.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\bv270a9weh-fsbi9cje9m.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\xhc9y9q8ee-rzd6atqjts.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\1uxmxfr2rk-ee0r1s7dh0.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\pos9eeojs6-dxx9fxp4il.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\q4n5cgcogb-jd9uben2k1.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\9fr0hxg3r9-khv3u5hwcm.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\3bgdcxcset-r4e9w2rdcm.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\xcye45uyms-lcd1t2u6c8.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\vrg33a5a2t-c2oey78nd0.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\iyvqpwol5d-tdbxkamptv.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\z9zge3s80r-j5mq2jizvt.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\481dskczln-06098lyss8.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\0k6jbns2w4-nvvlpmu67g.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\1azsyp9v58-s35ty4nyc5.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\sqjo96w5mv-pj5nd1wqec.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\31t2oebp1c-46ein0sx1k.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\rlwwvvonvh-v0zj4ognzu.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\htpo8pvmzo-37tfw0ft22.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\sc65cs1o7n-hrwsygsryq.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\326w0378mu-pk9g2wxc8p.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\2xkj1b3ogn-ft3s53vfgj.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\vk5sqaxaed-6cfz1n2cew.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\gxduyyopay-6pdc2jztkx.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\1t4feoech8-493y06b0oq.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\i7dsrbdcce-iovd86k7lj.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\4csx2la6bw-vr1egmr9el.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\jevgri3512-kbrnm935zg.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\tkeswn67gb-jj8uyg4cgr.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\xeq8ang5hf-y7v9cxd14o.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\yjnh6p4oc4-notf2xhcfb.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\lw2o8gjlpw-h1s4sie4z3.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\pbxm0m3ezz-63fj8s7r0e.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\9hkeay7yzd-0j3bgjxly4.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\cn1ra5lhjs-47otxtyo56.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\icxk5l7fyp-4v8eqarkd7.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\6hyeeat0qd-356vix0kms.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\c9b8ycqx28-83jwlth58m.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\901057ij4w-mrlpezrjn3.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\m6n2pxwi00-lzl9nlhx6b.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\4eorcgw1r1-ag7o75518u.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\qgu5kxsn73-x0q3zqp4vz.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\6y8s9ih0nl-0i3buxo5is.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\lp6oskthpn-o1o13a6vjx.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\0k272gq2dm-ttgo8qnofa.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\fcrxm6hvws-2z0ns9nrw6.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\9a28aa1vsq-muycvpuwrr.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\zfncy41rkx-87fc7y1x7t.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\wmrknsfvdl-mlv21k5csn.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\xsxxsdzxmp-03q315ivwz.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\d1a6gwwg2i-03q315ivwz.gz
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\staticwebassets.build.json
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\staticwebassets.development.json
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\GOTTA.dll
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\refint\GOTTA.dll
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\GOTTA.pdb
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\GOTTA.genruntimeconfig.cache
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\ref\GOTTA.dll

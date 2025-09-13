@@ -1,0 +1,305 @@
+/* RESET */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(87, 87, 87, 0.7);
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1600px;
+  
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.logo span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.perfil {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.perfil img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} 
+
+/* FOOTER */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.pg {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ccc;
+  text-align: center;
+  padding: 8px 20px;
+  font-size: 0.9rem;
+  font-family: "Segoe UI", Arial, sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* PARTICIPE */
+.container1 {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 40px;
+  border-radius: 30px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 140px auto 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.formulario {
+  flex: 2;
+  min-width: 280px;
+}
+
+.formulario h2 {
+  font-size: 40px;
+  font-weight: 350;
+  text-align: center;
+  margin: 0 0 10px;
+  width: 100%;
+}
+
+
+.formulario p {
+  margin-bottom: 40px; 
+}
+
+.formulario input,
+.formulario textarea {
+
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid red;
+  border-radius: 20px;
+  background: transparent;
+  color: white;
+}
+
+.formulario textarea {
+  resize: none;
+  height: 80px;
+}
+
+.checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+  line-height: 1.2;
+  flex-wrap: wrap;
+}
+
+.checkbox input[type="checkbox"] {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgb(255, 75, 75);
+  border-radius: 4px;
+  background: transparent;
+  position: relative;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.checkbox input[type="checkbox"]:checked::before {
+  content: "✓";
+  color: rgb(255, 89, 89);
+  position: absolute;
+  top: 0;
+  left: 3px;
+  font-size: 12px;
+}
+
+.checkbox a {
+  color: #e0e0e0;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.checkbox a:hover {
+  color: #ffffff;
+}
+
+.formulario button {
+  margin: 25px auto 0; 
+  display: block;
+  background: transparent;
+  border: 1px solid red;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.formulario button:hover {
+  background: red;
+  color: black;
+}
+
+
+.imagem-direita {
+  flex: 2;
+  min-width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagem-direita img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.logar {
+  display: flex;
+  align-items: center; 
+  gap: 8px;         
+  margin-top: 15px;}
+
+.logar p {
+  margin: 0;
+  color: #fff;        
+}
+
+
+.logar a.lg {
+  color: rgb(109, 196, 255);       
+  text-decoration: none; 
+  font-weight: bold;
+}
+
+
+/* MODAIS */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  background-color: #222;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 600px;
+  color: white;
+  position: relative;
+}
+
+.close {
+  color: #aaa;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: red;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .container1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagem-direita {
+    margin-top: 30px;
+  }
+}

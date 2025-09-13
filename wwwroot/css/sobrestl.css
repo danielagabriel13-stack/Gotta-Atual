@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #111;
+  color: #f1f1f1;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(87, 87, 87, 0.7); 
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1600px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.logo span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 115px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transform: translateX(70px);
+}
+
+nav a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 34px;
+  font-weight: 350;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.perfil {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.perfil img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* FOOTER */
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ccc;
+  text-align: center;
+  padding: 8px 20px;
+  font-size: 0.9rem;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* SOBRE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Container principal */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Títulos */
+.titulo {
+  font-size: 2rem;
+  margin: 2rem 0 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+/* Grid flexível */
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+/* Cards */
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 1.5rem;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.6);
+}
+
+/* Destaques por cor */
+.red {
+  border-left: 5px solid #e74c3c;
+}
+
+.green {
+  border-left: 5px solid #2ecc71;
+}
+
+.gray {
+  border-left: 5px solid #aaa;
+}
+
+/* Imagens dentro dos cards */
+.card-img {
+  width: 60%; 
+  display: block; 
+  margin: 0 auto 1rem auto; 
+  border-radius: 12px;
+}
+
+/* Introdução */
+.intro {
+  text-align: center;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+/* Espaço maior abaixo da seção Sobre o projeto */
+section:first-of-type {
+  margin-bottom: 100px; /* aumenta conforme quiser */
+}
+
+/* Ou então espaço maior acima da seção Monitoramento */
+section:last-of-type {
+  margin-top: 80px;
+}
+
+
+
+/* MONITORAMENTO: imagem + cards lado a lado */
+.monitoramento-flex {
+  display: flex;
+  flex-direction: row; /* garante que os itens fiquem lado a lado */
+  align-items: flex-start; /* alinha ao topo */
+  gap: 40px;
+  max-width: 1200px;
+  margin: 2rem auto 0 auto; /* centraliza horizontalmente */
+}
+
+.grid-monitoramento {
+  flex: 2; /* ocupa mais espaço */
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.imagem-destaque.lado-direito {
+  flex: 1;
+  min-width: 500px;
+}
+
+.imagem-destaque.lado-direito img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 25px rgba(0,0,0,0.6);
+}
+
+/* Responsivo: em telas pequenas empilha a imagem para baixo */
+@media (max-width: 900px) {
+  .monitoramento-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagem-destaque.lado-direito {
+    max-width: 100%;
+    margin-top: 2rem;
+  }
+}
+

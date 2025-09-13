@@ -1,0 +1,60 @@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Mapa";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/mapastl.css" />
+}
+
+    <main>
+        <section>
+            <h1>Navegação geográfica</h1>
+            <p>Explore nosso mapa interativo, onde você pode visualizar as áreas monitoradas em tempo real. Conheça as regiões mais suscetíveis a queimadas e veja como nossas tecnologias estão atuando para mitigar esses riscos. O mapa é uma ferramenta poderosa que permite a todos entenderem a dinâmica das queimadas e a importância da nossa atuação.</p>
+
+            <div class="filtro">
+                <label for="estado">Estado</label>
+                <select name="estado" id="estado">
+                    <option value="AM">Amazonas</option>
+                    <option value="PA">Pará</option>
+                    <option value="AP">Amapá</option>
+                    <option value="RR">Roraima</option>
+                </select>
+                <button id="buscar">Buscar</button>
+            </div>
+
+            <div class="mapnav">
+                <iframe src="" width="1000" height="350" style="border:6;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <div class="background-effect"></div>
+    </main>
+
+    <!-- JS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const selectEstado = document.getElementById("estado");
+            const botaoBuscar = document.getElementById("buscar");
+            const mapa = document.querySelector(".mapnav iframe");
+
+    
+            const mapas = {
+                AM: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1439190.6777575656!2d-65.23746667373807!3d-4.899416571742216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92183f5c8b1d6ed1%3A0x176d6af66b3c2efa!2sAmazonas!5e0!3m2!1spt-BR!2sbr!4v1733068549711!5m2!1spt-BR!2sbr",
+                PA: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1016667.70665464!2d-52.73278689647147!3d-5.513731114574236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9288f999ac2c0997%3A0x315ec83ee755f30a!2zUGFyw6E!5e0!3m2!1spt-BR!2sbr!4v1733068710489!5m2!1spt-BR!2sbr",
+                AP: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214587.3436654823!2d-50.90956091498661!3d2.025714987923947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d653d73cd997b21%3A0x911a614576f6bcd4!2zQW1hcMOh!5e0!3m2!1spt-BR!2sbr!4v1733068853796!5m2!1spt-BR!2sbr",
+                BA: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13000.0987654321!2d-38.5000!3d-12.9714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x123456789abcdef0%3A0xabcdef1234567890!2sPelourinho!5e0!3m2!1spt-BR!2sbr!4v1733066397511!5m2!1spt-BR!2sbr",
+                RR: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429288.33773141773!2d-61.33077559861469!3d1.5380742892819808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d930671dfccf45b%3A0x695f00f29e9c7a14!2sRoraima!5e0!3m2!1spt-BR!2sbr!4v1733068969968!5m2!1spt-BR!2sbr",
+                PR: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15000.876543210987!2d-49.2750!3d-25.4296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x123456789abcdef0%3A0xabcdef1234567890!2sJardim%20Botânico%20de%20Curitiba!5e0!3m2!1spt-BR!2sbr!4v1733066397511!5m2!1spt-BR!2sbr"
+            };
+    
+            botaoBuscar.addEventListener("click", () => {
+                const estadoSelecionado = selectEstado.value;
+    
+                if (mapas[estadoSelecionado]) {
+                    mapa.src = mapas[estadoSelecionado];
+                } else {
+                    alert("Estado não encontrado.");
+                }
+            });
+        });
+    </script>

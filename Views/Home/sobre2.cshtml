@@ -1,0 +1,135 @@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Sobre";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/sobre2stl.css" />
+}
+
+<!--- SOBRE --->
+
+  <main class="container">
+    <!-- Sobre -->
+    <section>
+      <h1 class="titulo">Sobre o projeto</h1>
+      <div class="duas-colunas">
+        <div class="coluna">
+          <details class="card red">
+            <summary>Projeto Inovador de Controle de Queimadas</summary>
+            <p>
+              Este projeto utiliza tecnologias avançadas para o monitoramento e controle de queimadas em áreas de vegetação. Através do uso de equipamentos modernos, buscamos mapear as regiões mais vulneráveis e combater incêndios de forma mais rápida e eficaz.
+            </p>
+            <p>
+              Nosso foco principal é implementar estratégias que sejam não apenas eficientes, mas também sustentáveis, garantindo a preservação do meio ambiente e a proteção da biodiversidade local.
+            </p>
+            <p>
+              <strong>Objetivo:</strong> assegurar a saúde das comunidades afetadas, promover a conscientização ambiental e contribuir para a redução dos impactos causados pelos incêndios florestais.
+            </p>
+          </details>
+
+          <details class="card green">
+            <summary>Missão e Proposta</summary>
+            <p>
+              Integrar inovação tecnológica e práticas sustentáveis para oferecer soluções eficazes de monitoramento ambiental.
+            </p>
+            <p>
+              Promover a segurança e o bem-estar da sociedade através do controle eficiente das queimadas e seus riscos associados.
+            </p>
+            <p>
+              Colaborar com órgãos governamentais, comunidades locais e outras instituições para ampliar o alcance e a efetividade do projeto.
+            </p>
+          </details>
+
+          <details class="card gray">
+            <summary>Recursos Tecnológicos</summary>
+            <p>
+              <strong>Drones equipados com sensores especializados:</strong> responsáveis pelo mapeamento aéreo de grandes áreas e coleta de imagens em alta resolução.
+            </p>
+            <p>
+              <strong>Software de análise de dados avançado:</strong> capaz de processar informações captadas, identificar padrões de risco e gerar mapas detalhados para tomada de decisão rápida.
+            </p>
+          </details>
+        </div>
+
+        <div class="coluna">
+          <details class="card gray">
+            <summary>Ações Preventivas</summary>
+            <p>
+              Realizamos o monitoramento constante das áreas consideradas de alto risco, oferecendo orientações e alertas para intervenções rápidas, que visam evitar a propagação dos focos de incêndio e minimizar danos ambientais.
+            </p>
+          </details>
+
+          <details class="card red">
+            <summary>Resposta em Situações Emergenciais</summary>
+            <p>
+              Ativação rápida de nuvens de chuva química para auxiliar no combate direto aos focos de incêndio.
+            </p>
+            <p>
+              Ações voltadas para a redução imediata dos danos causados e para a aceleração da recuperação das áreas afetadas.
+            </p>
+            <p>
+              Promoção de um ciclo sustentável, equilibrando a necessidade de intervenção com a preservação ambiental.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Monitoramento -->
+    <section>
+      <h1 class="titulo">Monitoramento</h1>
+      <p class="intro">
+        <strong>Sistema Inovador de Controle de Queimadas</strong><br />
+        Nosso sistema integrado reúne tecnologias de ponta, combinando drones equipados com sensores de alta precisão e softwares inteligentes para a análise detalhada dos dados coletados. O processo é dividido em etapas estratégicas que garantem a eficiência no monitoramento ambiental e na resposta rápida a possíveis incêndios.
+      </p>
+
+      <div class="monitoramento-flex">
+        <div class="monitoramento-coluna-esquerda">
+          <details class="card gray">
+            <summary>1. Monitoramento Aéreo com Drones</summary>
+            <p>
+              Utilizamos drones equipados com câmeras de alta resolução e sensores térmicos que capturam dados em tempo real, permitindo a identificação precoce de focos de calor e alterações no ambiente.
+            </p>
+          </details>
+
+          <details class="card gray">
+            <summary>2. Coleta de Dados Químicos</summary>
+            <p>
+              Analisamos a composição química da vegetação e do solo, além de monitorar variáveis importantes como umidade e temperatura, essenciais para entender o comportamento do fogo e seus riscos.
+            </p>
+          </details>
+
+          <details class="card gray">
+            <summary>3. Análise em Tempo Real</summary>
+            <p>
+              Um sistema de inteligência artificial processa os dados coletados, identificando padrões críticos e emitindo alertas preventivos para atuação rápida das equipes responsáveis.
+            </p>
+          </details>
+        </div>
+
+        <div class="monitoramento-coluna-direita">
+          <div class="video-destaque lado-direito">
+         <video>
+    <source src="@Url.Content("~/vid/bigvid.mp4")" type="video/mp4">
+</video>
+          </div>
+
+          <details class="card gray">
+            <summary>4. Criação de Nuvens de Chuva Química</summary>
+            <p>
+              Em situações emergenciais, o sistema pode ativar a criação de nuvens de chuva química, ajudando no combate às chamas e na recuperação do solo afetado pelo fogo.
+            </p>
+          </details>
+
+          <details class="card gray">
+            <summary>5. Relatórios e Previsões</summary>
+            <p>
+              Geração de relatórios detalhados e previsões de risco para auxiliar as autoridades e comunidades na tomada de decisões e na preparação para possíveis incêndios.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
