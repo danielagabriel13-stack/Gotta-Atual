@@ -21,7 +21,7 @@
             <ul>
                 <li><a asp-controller="Home" asp-action="Index">Home</a></li>
                 <li><a asp-controller="Home" asp-action="Sobre">Sobre</a></li>
-                <li><a asp-controller="Home" asp-action="Mega">3D</a></li>
+                <li><a asp-controller="Home" asp-action="Mega">Quiz</a></li>
                 <li><a asp-controller="Home" asp-action="Mapa">Mapa</a></li>
                 <li><a asp-controller="Home" asp-action="Contato">Contato</a></li>
             </ul>
@@ -43,5 +43,8 @@
     <footer>
         <p>© 2025 GOTTA. Todos os direitos reservados.</p>
     </footer>
+
+    @RenderSection("Scripts", required: false)
+    
 </body>
 </html>

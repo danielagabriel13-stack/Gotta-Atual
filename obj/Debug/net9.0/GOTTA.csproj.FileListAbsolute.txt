@@ -132,7 +132,6 @@ D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debu
 D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\vcci53auom-5j5u7ytck7.gz
 D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\9v4tb565yv-wk9kjwluqr.gz
 D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\uvshpskaar-5x1jyvz0vh.gz
-D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\h9idb765ag-f3vtk06xvw.gz
 D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\ad1tu11p9o-xtgq7j64f1.gz
 D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\x53wo4ym04-f8j2acilj5.gz
 D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\ce3vjnfo7v-5ro6yt79zw.gz
@@ -210,3 +209,5 @@ D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debu
 D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\GOTTA.pdb
 D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\GOTTA.genruntimeconfig.cache
 D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\ref\GOTTA.dll
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\GOTTA.sourcelink.json
+D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\Gotta Atual\obj\Debug\net9.0\compressed\h9idb765ag-6ul4926j2s.gz
