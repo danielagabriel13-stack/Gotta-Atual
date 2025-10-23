@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GOTTA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6efa42bf30c080e4b0318f07dc26ec42e598454e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93f0729fcf8c7985f610ca4c36a6c43761338ba6")]
 [assembly: System.Reflection.AssemblyProductAttribute("GOTTA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GOTTA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

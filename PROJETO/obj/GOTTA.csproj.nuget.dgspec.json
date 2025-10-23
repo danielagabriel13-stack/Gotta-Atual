@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Daniela\\_ FATEC\\Sementre 3\\7º - Desenvolvimento Web III\\Gotta Atual\\GOTTA.csproj": {}
+    "C:\\Users\\Daniela Gabriela\\Documents\\GitHub\\Gotta-Atual\\PROJETO\\GOTTA.csproj": {}
   },
   "projects": {
-    "D:\\Daniela\\_ FATEC\\Sementre 3\\7º - Desenvolvimento Web III\\Gotta Atual\\GOTTA.csproj": {
+    "C:\\Users\\Daniela Gabriela\\Documents\\GitHub\\Gotta-Atual\\PROJETO\\GOTTA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Daniela\\_ FATEC\\Sementre 3\\7º - Desenvolvimento Web III\\Gotta Atual\\GOTTA.csproj",
+        "projectUniqueName": "C:\\Users\\Daniela Gabriela\\Documents\\GitHub\\Gotta-Atual\\PROJETO\\GOTTA.csproj",
         "projectName": "GOTTA",
-        "projectPath": "D:\\Daniela\\_ FATEC\\Sementre 3\\7º - Desenvolvimento Web III\\Gotta Atual\\GOTTA.csproj",
+        "projectPath": "C:\\Users\\Daniela Gabriela\\Documents\\GitHub\\Gotta-Atual\\PROJETO\\GOTTA.csproj",
         "packagesPath": "C:\\Users\\Daniela Gabriela\\.nuget\\packages\\",
-        "outputPath": "D:\\Daniela\\_ FATEC\\Sementre 3\\7º - Desenvolvimento Web III\\Gotta Atual\\obj\\",
+        "outputPath": "C:\\Users\\Daniela Gabriela\\Documents\\GitHub\\Gotta-Atual\\PROJETO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Daniela Gabriela\\AppData\\Roaming\\NuGet\\NuGet.Config"
