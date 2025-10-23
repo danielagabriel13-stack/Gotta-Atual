@@ -9,69 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GOTTA
 build_property.RootNamespace = GOTTA
-build_property.ProjectDir = C:\Users\Daniela Gabriela\Documents\GitHub\Gotta-Atual\PROJETO\
+build_property.ProjectDir = C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\Gotta-Atual\PROJETO\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Daniela Gabriela\Documents\GitHub\Gotta-Atual\PROJETO
+build_property.MSBuildProjectDirectory = C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\Gotta-Atual\PROJETO
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Daniela Gabriela/Documents/GitHub/Gotta-Atual/PROJETO/Views/Home/contato.cshtml]
+[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/Gotta-Atual/PROJETO/Views/Home/contato.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb250YXRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniela Gabriela/Documents/GitHub/Gotta-Atual/PROJETO/Views/Home/home.cshtml]
+[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/Gotta-Atual/PROJETO/Views/Home/home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxob21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniela Gabriela/Documents/GitHub/Gotta-Atual/PROJETO/Views/Home/Index.cshtml]
+[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/Gotta-Atual/PROJETO/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniela Gabriela/Documents/GitHub/Gotta-Atual/PROJETO/Views/Home/login.cshtml]
+[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/Gotta-Atual/PROJETO/Views/Home/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxsb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniela Gabriela/Documents/GitHub/Gotta-Atual/PROJETO/Views/Home/mapa.cshtml]
+[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/Gotta-Atual/PROJETO/Views/Home/mapa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxtYXBhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniela Gabriela/Documents/GitHub/Gotta-Atual/PROJETO/Views/Home/mega.cshtml]
+[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/Gotta-Atual/PROJETO/Views/Home/mega.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxtZWdhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniela Gabriela/Documents/GitHub/Gotta-Atual/PROJETO/Views/Home/participe.cshtml]
+[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/Gotta-Atual/PROJETO/Views/Home/participe.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwYXJ0aWNpcGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniela Gabriela/Documents/GitHub/Gotta-Atual/PROJETO/Views/Home/Privacy.cshtml]
+[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/Gotta-Atual/PROJETO/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniela Gabriela/Documents/GitHub/Gotta-Atual/PROJETO/Views/Home/sobre2.cshtml]
+[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/Gotta-Atual/PROJETO/Views/Home/sobre2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzb2JyZTIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniela Gabriela/Documents/GitHub/Gotta-Atual/PROJETO/Views/Shared/Error.cshtml]
+[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/Gotta-Atual/PROJETO/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniela Gabriela/Documents/GitHub/Gotta-Atual/PROJETO/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/Gotta-Atual/PROJETO/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniela Gabriela/Documents/GitHub/Gotta-Atual/PROJETO/Views/_ViewImports.cshtml]
+[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/Gotta-Atual/PROJETO/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniela Gabriela/Documents/GitHub/Gotta-Atual/PROJETO/Views/_ViewStart.cshtml]
+[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/Gotta-Atual/PROJETO/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniela Gabriela/Documents/GitHub/Gotta-Atual/PROJETO/Views/Shared/_Layout.cshtml]
+[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/Gotta-Atual/PROJETO/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-01irhnf6t2

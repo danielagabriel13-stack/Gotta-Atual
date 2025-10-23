@@ -111,12 +111,14 @@ footer {
 
 /* PARTICIPE */
 .container1 {
+   display: flex;
+  align-items: center;
   background: rgba(255, 255, 255, 0.08);
   padding: 40px;
   border-radius: 30px;
-  width: 90%;
+  width: 40%;
   max-width: 1200px;
-  margin: 140px auto 80px;
+  margin: 140px auto 140px;
   display: flex;
   justify-content: space-between;
   gap: 60px;
@@ -143,8 +145,8 @@ footer {
 
 .formulario input,
 .formulario textarea {
-
-  width: 100%;
+  align-self: center;
+  width: 70%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid red;
@@ -226,13 +228,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.imagem-direita img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 20px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .logar {

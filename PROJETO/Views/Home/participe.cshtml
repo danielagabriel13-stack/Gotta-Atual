@@ -7,39 +7,41 @@
     <link rel="stylesheet" href="~/css/participestl.css" />
 }
 
+@model GOTTA.ViewModels.CadastroViewModel
+
 
 <main>
   <div class="container1">
-    
     <!-- Coluna da esquerda: Formulário -->
     <div class="formulario">
-      <h2>Participe</h2><br>
-      <p>Crie uma conta para acompanhar as áreas monitoradas, receber atualizações e participar de nossas iniciativas.</p>
-      <form>
-        <input type="text" placeholder="Nome Completo" required><br>
-        <input type="email" placeholder="E-mail" required><br>
-        <input type="password" placeholder="Senha" required><br>
-        <div class="checkbox">
+      <h2>Cadastro</h2><br>
+      <p>Cadastre sua empresa. Cada CNPJ poderá ter apenas um usuário associado.</p>
+     <form asp-controller="Home" asp-action="Participe" method="post">
+      <div class="cadastroEmpresa">
+         <input asp-for="Empresa.NomeEmpresa" placeholder="Nome da empresa" required />
+        <input asp-for="Empresa.Cnpj" placeholder="CNPJ" required />
+        <input asp-for="Empresa.Estado" placeholder="Estado" required />
+        <input asp-for="Usuario.Nome" placeholder="Nome do representante" required />
+        <input asp-for="Usuario.Email" placeholder="E-mail" required />
+        <input asp-for="Usuario.Telefone" placeholder="Telefone" required />
+        <input asp-for="Usuario.UsuarioLogin" placeholder="Nome de usuário" required />
+        <input asp-for="Usuario.Senha" type="password" placeholder="Senha" required />
+      </div>
+    <div class="checkbox">
           <label>
             <input type="checkbox" required>
             Concordo com os 
             <a href="#" id="openModal">Termos de uso</a> e 
             <a href="#" id="openModal2">Política de privacidade</a>
           </label>
-        </div>
-        <button type="submit">Enviar</button>
- <div class="logar">
-  <p>Já tem uma conta?</p>
-   <a asp-controller="Home" asp-action="Login" class="lg">login</a>
-</div>
-      </form>
     </div>
-
-    <!-- Imagem do lado direito -->
-<div class="imagem-direita">
- <img src="@Url.Content("~/img/Imagem Site 08.png")" alt="Drone" />
-</div>
-
+        <button type="submit">Enviar</button>
+    <div class="logar">
+      <p>Já tem uma conta?</p>
+      <a asp-controller="Home" asp-action="Login" class="lg">login</a>
+    </div>
+      </form>
+  </div>
 
 
   </div>

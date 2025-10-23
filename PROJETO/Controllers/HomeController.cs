@@ -1,6 +1,10 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using GOTTA.Models;
+using GOTTA.Repositories;
+using GOTTA.ViewModels;
+
+
 
 namespace GOTTA.Controllers
 {
@@ -19,38 +23,66 @@ namespace GOTTA.Controllers
             return View("Home"); // Views/Home/Home.cshtml
         }
 
-        // Outras páginas
+        // Página Sobre
         public IActionResult Sobre()
         {
             return View("sobre2"); 
         }
 
+        // Página Mega
         public IActionResult Mega()
         {
             return View();
         }
 
+        // Página Mapa
         public IActionResult Mapa()
         {
             return View();
         }
 
+        // Página Contato
         public IActionResult Contato()
         {
             return View(); 
         }
 
+        // Página Login
         public IActionResult Login()
         {
             return View(); 
         }
 
+        // GET: Participe (formulário de cadastro)
+        [HttpGet]
         public IActionResult Participe()
         {
-            return View(); 
+            return View(new CadastroViewModel());
         }
 
-       
+        // POST: Participe (envio do formulário)
+        [HttpPost]
+        public IActionResult Participe(CadastroViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var empresaRepo = new EmpresaRepository();
+                var usuarioRepo = new UsuarioRepository();
+
+               
+                int empresaId = empresaRepo.Inserir(model.Empresa);
+    model.Usuario.Empresa_ID = empresaId;
+                usuarioRepo.Inserir(model.Usuario);
+
+                // Redireciona para página inicial ou página de sucesso
+                return RedirectToAction("Index");
+            }
+
+            // Se houver erro, retorna a mesma View com dados preenchidos
+            return View(model);
+        }
+
+        // Página Privacy
         public IActionResult Privacy()
         {
             return View();
