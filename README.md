@@ -41,7 +41,3 @@ Projeto desenvolvido como atividade acadêmica da disciplina **Desenvolvimento W
 ## Licença
 
 Este projeto é de uso **acadêmico** e não possui fins comerciais.
-
----
-
-👉 Quer que eu crie também a **versão em inglês** do README (para você já deixar o repositório mais internacional e pronto para feiras/projetos futuros)?
