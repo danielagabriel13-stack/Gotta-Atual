@@ -1,10 +1,12 @@
 using System.Diagnostics;
+using System.Security.Claims;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 using GOTTA.Models;
 using GOTTA.Repositories;
 using GOTTA.ViewModels;
-
-
 
 namespace GOTTA.Controllers
 {
@@ -17,50 +19,80 @@ namespace GOTTA.Controllers
             _logger = logger;
         }
 
-        // Página inicial
-        public IActionResult Index()
+        // ✅ Páginas públicas
+        [AllowAnonymous]
+        public IActionResult Index() => View("Home");
+
+        [AllowAnonymous]
+        public IActionResult Sobre() => View("sobre2");
+
+        [AllowAnonymous]
+        public IActionResult Login() => View();
+
+        // ✅ LOGIN COM VERIFICAÇÃO DE ETAPA
+        [AllowAnonymous]
+        [HttpPost]
+        public async Task<IActionResult> Login(string usuarioLogin, string senha)
         {
-            return View("Home"); // Views/Home/Home.cshtml
+            var usuarioRepo = new UsuarioRepository();
+            var usuario = usuarioRepo.BuscarPorLogin(usuarioLogin);
+
+            if (usuario == null || usuario.Senha != senha)
+            {
+                ViewBag.Erro = "Usuário ou senha incorretos.";
+                return View();
+            }
+
+            // 🔐 Cria os claims do usuário
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, usuario.Nome),
+                new Claim(ClaimTypes.NameIdentifier, usuario.Usuario_ID.ToString()),
+                new Claim("Usuario", usuario.UsuarioLogin)
+            };
+
+            var claimsIdentity = new ClaimsIdentity(claims, "CookieAuth");
+
+            var authProperties = new AuthenticationProperties
+            {
+                IsPersistent = true,
+            };
+
+            await HttpContext.SignInAsync(
+                "CookieAuth",
+                new ClaimsPrincipal(claimsIdentity),
+                authProperties
+            );
+
+            // 🚧 Verifica se a etapa foi concluída
+            if (!usuario.etapaConcluida)
+            {
+                // Redireciona o usuário para a verificação
+                return RedirectToAction("Index", "VerifyStep", new { usuarioId = usuario.Usuario_ID });
+            }
+
+            // ✅ Se já concluiu, vai para a Home normalmente
+            return RedirectToAction("Index");
         }
 
-        // Página Sobre
-        public IActionResult Sobre()
+        // ✅ Logout
+        [Authorize]
+        [HttpPost]
+        public async Task<IActionResult> Logout()
         {
-            return View("sobre2"); 
+            await HttpContext.SignOutAsync("CookieAuth");
+            return RedirectToAction("Index", "Home");
         }
 
-        // Página Mega
-        public IActionResult Mega()
-        {
-            return View();
-        }
-
-        // Página Mapa
-        public IActionResult Mapa()
-        {
-            return View();
-        }
-
-        // Página Contato
-        public IActionResult Contato()
-        {
-            return View(); 
-        }
-
-        // Página Login
-        public IActionResult Login()
-        {
-            return View(); 
-        }
-
-        // GET: Participe (formulário de cadastro)
+        // ✅ Cadastro (Participe)
+        [AllowAnonymous]
         [HttpGet]
         public IActionResult Participe()
         {
             return View(new CadastroViewModel());
         }
 
-        // POST: Participe (envio do formulário)
+        [AllowAnonymous]
         [HttpPost]
         public IActionResult Participe(CadastroViewModel model)
         {
@@ -69,26 +101,31 @@ namespace GOTTA.Controllers
                 var empresaRepo = new EmpresaRepository();
                 var usuarioRepo = new UsuarioRepository();
 
-               
                 int empresaId = empresaRepo.Inserir(model.Empresa);
-    model.Usuario.Empresa_ID = empresaId;
+                model.Usuario.Empresa_ID = empresaId;
                 usuarioRepo.Inserir(model.Usuario);
 
-                // Redireciona para página inicial ou página de sucesso
                 return RedirectToAction("Index");
             }
 
-            // Se houver erro, retorna a mesma View com dados preenchidos
             return View(model);
         }
 
-        // Página Privacy
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+        // ✅ Páginas protegidas (apenas logado)
+        [Authorize]
+        public IActionResult Mega() => View();
+
+        [Authorize]
+        public IActionResult Mapa() => View();
+
+        [Authorize]
+        public IActionResult Contato() => View();
+
+        [AllowAnonymous]
+        public IActionResult Privacy() => View();
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        [AllowAnonymous]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });

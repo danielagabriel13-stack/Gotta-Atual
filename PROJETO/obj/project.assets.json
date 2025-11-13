@@ -599,11 +599,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samanta\\Desktop\\PEDRO LINDO E LEGAL\\Proj GOTTA\\gotta 23.10\\Gotta-Atual\\PROJETO\\GOTTA.csproj",
+      "projectUniqueName": "C:\\Users\\samanta\\Desktop\\PEDRO LINDO E LEGAL\\Proj GOTTA\\gotta 23.10\\simple way to choose\\hammer\\Gotta-Atual\\PROJETO\\GOTTA.csproj",
       "projectName": "GOTTA",
-      "projectPath": "C:\\Users\\samanta\\Desktop\\PEDRO LINDO E LEGAL\\Proj GOTTA\\gotta 23.10\\Gotta-Atual\\PROJETO\\GOTTA.csproj",
+      "projectPath": "C:\\Users\\samanta\\Desktop\\PEDRO LINDO E LEGAL\\Proj GOTTA\\gotta 23.10\\simple way to choose\\hammer\\Gotta-Atual\\PROJETO\\GOTTA.csproj",
       "packagesPath": "C:\\Users\\samanta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samanta\\Desktop\\PEDRO LINDO E LEGAL\\Proj GOTTA\\gotta 23.10\\Gotta-Atual\\PROJETO\\obj\\",
+      "outputPath": "C:\\Users\\samanta\\Desktop\\PEDRO LINDO E LEGAL\\Proj GOTTA\\gotta 23.10\\simple way to choose\\hammer\\Gotta-Atual\\PROJETO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\samanta\\AppData\\Roaming\\NuGet\\NuGet.Config"

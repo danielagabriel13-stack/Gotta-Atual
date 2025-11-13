@@ -1,0 +1,30 @@
+@model GOTTA.Models.Usuario
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Verificação de Etapa";
+    ViewData["HideNavbar"] = true; // 👈 isso desativa a navbar
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/Verify.css" />
+}
+
+<main>
+    <div class="verify-container">
+        <h2>Bem-vindo, @Model.Nome!</h2>
+
+        @if (!Model.etapaConcluida)
+        {
+            <p>Você ainda não concluiu a etapa.</p>
+            <form asp-controller="VerifyStep" asp-action="Concluir" method="post">
+                <button type="submit">Concluir Etapa</button>
+            </form>
+        }
+        else
+        {
+            <p>Parabéns! Você já concluiu a etapa.</p>
+            <a asp-controller="Home" asp-action="Index">Ir para a Home</a>
+        }
+    </div>
+</main>

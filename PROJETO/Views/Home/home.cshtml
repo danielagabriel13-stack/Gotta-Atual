@@ -2,12 +2,18 @@
     Layout = "_Layout";
     ViewData["Title"] = "Home";
 }
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Home";
+    ViewData["ShowFooter"] = false; // Footer será oculto
+}
+
 
 @section Styles {
     <link rel="stylesheet" href="~/css/homestl.css" />
 }
 
-<main class="hero-section">
+<section class="hero-section">
     <div class="content-container">
         <h1>Gestão Otimizada de Tecnologia de tratamento Ambiental</h1>
         <p>
@@ -16,4 +22,5 @@
 
         <a asp-controller="Home" asp-action="Participe" class="cta-button">Participar</a>
     </div>
-</main>
+</section>
+

@@ -1,0 +1,24 @@
+<header class="navbar">
+    <div class="logo">
+        <a asp-controller="Home" asp-action="Index">
+            <img src="~/img/iconGotta2.png" alt="Logo GOTTA" class="logo-img">
+        </a>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+            <li><a asp-controller="Home" asp-action="Mega">Mega</a></li>
+            <li><a asp-controller="Home" asp-action="Mapa">Mapa</a></li>
+            <li><a asp-controller="Home" asp-action="Contato">Contate</a></li>
+        </ul>
+    </nav>
+
+    <div class="perfil">
+        <form asp-controller="Home" asp-action="Logout" method="post" class="logout-form">
+            <button type="submit" class="logout-btn" title="Sair">
+                <img src="~/img/iconLogout.png" alt="Sair" class="logout-icon" />
+            </button>
+        </form>
+    </div>
+</header>

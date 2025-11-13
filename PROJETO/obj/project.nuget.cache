@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8qvOe5x20Nk=",
+  "dgSpecHash": "s5rzHPFrhfE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\samanta\\Desktop\\PEDRO LINDO E LEGAL\\Proj GOTTA\\gotta 23.10\\Gotta-Atual\\PROJETO\\GOTTA.csproj",
+  "projectFilePath": "C:\\Users\\samanta\\Desktop\\PEDRO LINDO E LEGAL\\Proj GOTTA\\gotta 23.10\\simple way to choose\\hammer\\Gotta-Atual\\PROJETO\\GOTTA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samanta\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\samanta\\.nuget\\packages\\google.protobuf\\3.32.0\\google.protobuf.3.32.0.nupkg.sha512",

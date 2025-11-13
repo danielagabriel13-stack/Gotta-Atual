@@ -9,5 +9,8 @@ namespace GOTTA.Models
         public string Telefone { get; set; }
         public string UsuarioLogin { get; set; }
         public string Senha { get; set; }
+
+        // nova propriedade para a verificação por etapa
+        public bool etapaConcluida { get; set; } 
     }
 }

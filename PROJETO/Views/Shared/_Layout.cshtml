@@ -1,50 +1,79 @@
-﻿<!DOCTYPE html>
+@{
+    Layout = null; // não usa outro layout
+    bool isLoggedIn = User?.Identity != null && User.Identity.IsAuthenticated;
+    bool showFooter = ViewData["ShowFooter"] == null || (bool)ViewData["ShowFooter"] != false;
+    bool hideNavbar = ViewData["HideNavbar"] != null && (bool)ViewData["HideNavbar"]; // 👈 controle da navbar
+}
+
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - GOTTA</title>
-
-    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/_Layout.css" />
     @RenderSection("Styles", required: false)
-    
 </head>
 <body>
     <!-- NAVBAR -->
-    <header>
-        <div class="logo">
-            <img src="~/img/iconGotta2.png" alt="Logo">
-            <span>GOTTA</span>
-        </div>
+    @if (!hideNavbar)
+    {
+        <header>
+            <div class="logo">
+                <img src="~/img/iconGotta2.png" alt="Logo">
+                <span>GOTTA</span>
+            </div>
 
-        <nav>
-            <ul>
-                <li><a asp-controller="Home" asp-action="Index">Home</a></li>
-                <li><a asp-controller="Home" asp-action="Sobre">Sobre</a></li>
-                <li><a asp-controller="Home" asp-action="Mega">Quiz</a></li>
-                <li><a asp-controller="Home" asp-action="Mapa">Mapa</a></li>
-                <li><a asp-controller="Home" asp-action="Contato">Contato</a></li>
-            </ul>
-        </nav>
+            <nav>
+                <ul>
+                    <li><a asp-controller="Home" asp-action="Index">Home</a></li>
 
-        <div class="perfil">
-            <a asp-controller="Home" asp-action="Login">
-                <img src="~/img/iconUser.png" alt="Perfil">
-            </a>
-        </div>
-    </header>
+                    @if (isLoggedIn)
+                    {
+                        <li><a asp-controller="Home" asp-action="Mega">Quiz</a></li>
+                        <li><a asp-controller="Home" asp-action="Mapa">Mapa</a></li>
+                        <li><a asp-controller="Home" asp-action="Contato">Contate</a></li>
+                    }
+                    else
+                    {
+                        <li><a asp-controller="Home" asp-action="Sobre">Sobre</a></li>
+                        <li><a asp-controller="Home" asp-action="Participe">Participe</a></li>
+                    }
+                </ul>
+            </nav>
 
-    <!-- CONTEÚDO PRINCIPAL DA VIEW -->
+            <div class="perfil">
+                @if (isLoggedIn)
+                {
+                    <form asp-controller="NavBar" asp-action="Logout" method="post" class="logout-form">
+                        <button type="submit" class="logout-btn">
+                            <img src="~/img/ExitIcon.png" alt="Sair" />
+                        </button>
+                    </form>
+                }
+                else
+                {
+                    <a asp-controller="Home" asp-action="Login">
+                        <img src="~/img/iconUser.png" alt="Entrar">
+                    </a>
+                }
+            </div>
+        </header>
+    }
+
+    <!-- CONTEÚDO PRINCIPAL -->
     <main>
         @RenderBody()
     </main>
 
-    <!-- RODAPÉ -->
-    <footer>
-        <p>© 2025 GOTTA. Todos os direitos reservados.</p>
-    </footer>
+    <!-- FOOTER -->
+    @if (showFooter)
+    {
+        <footer>
+            <p>© 2025 GOTTA. Todos os direitos reservados.</p>
+        </footer>
+    }
 
     @RenderSection("Scripts", required: false)
-    
 </body>
 </html>

@@ -1,3 +1,11 @@
+@{
+    if (User.Identity != null && User.Identity.IsAuthenticated)
+    {
+        // Se o usuário já estiver logado, redireciona para a Home autenticada
+        Context.Response.Redirect(Url.Action("Index", "Home"));
+    }
+}
+
 
 @{
     Layout = "_Layout";
@@ -7,83 +15,79 @@
 @section Styles {
     <link rel="stylesheet" href="~/css/loginstl.css" />
 }
-  <div class="pg">
 
+<div class="pg">
+    <main>
+        <div class="container1">
 
-<main>
-  <div class="container1">
-    
-    <!-- Coluna da esquerda: Formulário -->
-    <div class="formulario">
-      <h2>Login</h2><br>
-      <p>Crie uma conta para acompanhar as áreas monitoradas, receber atualizações e participar de nossas iniciativas.</p>
-      <form>
-        <input type="text" placeholder="Nome Completo" required><br>
-        <input type="email" placeholder="E-mail" required><br>
-        <input type="password" placeholder="Senha" required><br>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" required>
-            Concordo com os 
-            <a href="#" id="openModal">Termos de uso</a> e 
-            <a href="#" id="openModal2">Política de privacidade</a>
-          </label>
+            <div class="formulario">
+                <h2>Login</h2><br>
+                <p>Crie uma conta para acompanhar as áreas monitoradas, receber atualizações e participar de nossas iniciativas.</p>
+
+                <!-- 🔹 Formulário agora faz POST real -->
+                <form asp-action="Login" asp-controller="Home" method="post">
+                    <input type="text" name="usuarioLogin" placeholder="Nome de usuário" required><br>
+                    <input type="password" name="senha" placeholder="Senha" required><br>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" required>
+                            Concordo com os 
+                            <a href="#" id="openModal">Termos de uso</a> e 
+                            <a href="#" id="openModal2">Política de privacidade</a>
+                        </label>
+                    </div>
+                    <button type="submit">Entrar</button>
+
+                    <!-- 🔸 Exibe erro se houver -->
+                    @if (ViewBag.Erro != null)
+                    {
+                        <p class="erro">@ViewBag.Erro</p>
+                    }
+
+                    <div class="criar-conta">
+                        <p>Ainda não tem uma conta?</p>
+                        <a asp-controller="Home" asp-action="Participe" class="cc">Criar conta</a>
+                    </div>
+                </form>
+            </div>
+
+            <div class="imagem-direita">
+                <img src="@Url.Content("~/img/Imagem Site 08.png")" alt="Drone" />
+            </div>
+
         </div>
-        <button type="submit">Entrar</button>
-            <div class="criar-conta">
-  <p>Ainda não tem uma conta?</p>
-  <a asp-controller="Home" asp-action="Participe" class="cc">Criar conta</a>
+    </main>
 </div>
 
-      </form>
+<!-- MODAIS -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <h2>Termos de Uso</h2>
+        <p>Coloque aqui os termos de uso reais do seu site.</p>
     </div>
-
-    <!-- Imagem do lado direito -->
-<div class="imagem-direita">
-<img src="@Url.Content("~/img/Imagem Site 08.png")" alt="Drone" />
 </div>
 
-
-
-  </div>
-</main>
-
-
-  
-  </div> <!-- Fecha .pg -->
-
-  <!-- MODAL TERMOS DE USO -->
-  <div id="modal" class="modal">
+<div id="modal2" class="modal">
     <div class="modal-content">
-      <span class="close" id="closeModal">&times;</span>
-      <h2>Termos de Uso</h2>
-      <p>Ana Catarina... Que nome feio.</p>
+        <span class="close" id="closeModal2">&times;</span>
+        <h2>Política de Privacidade</h2>
+        <p>Coloque aqui sua política de privacidade.</p>
     </div>
-  </div>
+</div>
 
-  <!-- MODAL POLÍTICA DE PRIVACIDADE -->
-  <div id="modal2" class="modal">
-    <div class="modal-content">
-      <span class="close" id="closeModal2">&times;</span>
-      <h2>Política de Privacidade</h2>
-      <p>Você concorda em partilhar sua alma com o Diabo?</p>
-    </div>
-  </div>
-
-  <!-- SCRIPT DOS MODAIS -->
-  <script>
+<script>
     // Termos de Uso
     const modal = document.getElementById("modal");
     const openModal = document.getElementById("openModal");
     const closeModal = document.getElementById("closeModal");
 
     openModal.onclick = function(e) {
-      e.preventDefault();
-      modal.style.display = "block";
+        e.preventDefault();
+        modal.style.display = "block";
     }
-
     closeModal.onclick = function() {
-      modal.style.display = "none";
+        modal.style.display = "none";
     }
 
     // Política de Privacidade
@@ -92,22 +96,16 @@
     const closeModal2 = document.getElementById("closeModal2");
 
     openModal2.onclick = function(e) {
-      e.preventDefault();
-      modal2.style.display = "block";
+        e.preventDefault();
+        modal2.style.display = "block";
     }
-
     closeModal2.onclick = function() {
-      modal2.style.display = "none";
+        modal2.style.display = "none";
     }
 
-   
+    // Fechar clicando fora
     window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-      if (event.target == modal2) {
-        modal2.style.display = "none";
-      }
+        if (event.target == modal) modal.style.display = "none";
+        if (event.target == modal2) modal2.style.display = "none";
     }
-  </script>
-</div>
+</script>

@@ -1,0 +1,103 @@
+/* RESET GERAL */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* CONTEÚDO CENTRALIZADO */
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* CONTAINER */
+.verify-container {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 50px 60px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+  max-width: 600px;
+  width: 100%;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* TÍTULO */
+.verify-container h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+
+/* TEXTO */
+.verify-container p {
+  font-size: 18px;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+/* BOTÃO PADRÃO */
+.verify-container button,
+.verify-container a {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 25px;
+  border: 1px solid red;
+  background: transparent;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.verify-container button:hover,
+.verify-container a:hover {
+  background: red;
+  color: black;
+}
+
+/* ANIMAÇÃO */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* FOOTER */
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ccc;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+  .verify-container {
+    padding: 40px 25px;
+  }
+
+  .verify-container h2 {
+    font-size: 28px;
+  }
+
+  .verify-container p {
+    font-size: 16px;
+  }
+}

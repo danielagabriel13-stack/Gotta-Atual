@@ -12,7 +12,7 @@ namespace GOTTA.Repositories
         {
             using var conn = _conexao.Conectar();
 
-            var sql = @"INSERT INTO Usuarios 
+            var sql = @"INSERT INTO usuarios 
                         (Empresa_ID, Nome, Email, Telefone, Usuario, Senha)
                         VALUES (@empresa_ID, @Nome, @Email, @Telefone, @UsuarioLogin, @Senha)";
 
@@ -31,7 +31,7 @@ namespace GOTTA.Repositories
         {
             using var conn = _conexao.Conectar();
 
-            var sql = "SELECT * FROM Usuarios WHERE usuario = @UsuarioLogin LIMIT 1";
+            var sql = "SELECT * FROM usuarios WHERE usuario = @UsuarioLogin LIMIT 1";
             using var cmd = new MySqlCommand(sql, conn);
             cmd.Parameters.AddWithValue("@UsuarioLogin", usuarioLogin);
 
@@ -46,11 +46,48 @@ namespace GOTTA.Repositories
                     Email = reader.GetString("email"),
                     Telefone = reader.GetString("telefone"),
                     UsuarioLogin = reader.GetString("usuario"),
-                    Senha = reader.GetString("senha")
+                    Senha = reader.GetString("senha"),
+                    etapaConcluida = reader.GetBoolean("etapaConcluida")
                 };
             }
 
-            return null;
+            return null!;
+        }
+
+        public Usuario BuscarPorId(int usuarioId)
+        {
+            using var conn = _conexao.Conectar();
+            var sql = "SELECT * FROM usuarios WHERE usuario_ID = @UsuarioId LIMIT 1";
+            using var cmd = new MySqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("@UsuarioId", usuarioId);
+
+            using var reader = cmd.ExecuteReader();
+            if (reader.Read())
+            {
+                return new Usuario
+                {
+                    Usuario_ID = reader.GetInt32("usuario_ID"),
+                    Empresa_ID = reader.GetInt32("empresa_ID"),
+                    Nome = reader.GetString("nome"),
+                    Email = reader.GetString("email"),
+                    Telefone = reader.GetString("telefone"),
+                    UsuarioLogin = reader.GetString("usuario"),
+                    Senha = reader.GetString("senha"),
+                    etapaConcluida = reader.GetBoolean("etapaConcluida")
+                };
+            }
+
+            return null!;
+        }
+
+        public void AtualizarEtapa(Usuario usuario)
+        {
+            using var conn = _conexao.Conectar();
+            var sql = "UPDATE usuarios SET etapaConcluida = @EtapaConcluida WHERE usuario_ID = @UsuarioId";
+            using var cmd = new MySqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("@EtapaConcluida", usuario.etapaConcluida);
+            cmd.Parameters.AddWithValue("@UsuarioId", usuario.Usuario_ID);
+            cmd.ExecuteNonQuery();
         }
     }
 }

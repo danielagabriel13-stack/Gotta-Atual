@@ -1,239 +1,241 @@
+/* ========================================
+   HOME PAGE CSS - homestl.css
+   ======================================== */
+
+/* BODY - mantém flex do layout para footer */
 body {
-  margin: 0;
-  font-family: "Segoe UI", Arial, sans-serif;
-  background: #312a2f;
-  color: #fff;
-  position: relative;
-  overflow-x: hidden;
-  background: none;
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #fff;
+    background: none;
+    overflow-x: hidden;
 }
 
+/* FUNDO COM GRADIENTE E IMAGEM */
 body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background:
-    linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.85),
-      rgba(0, 0, 0, 0.6) 30%,
-      rgba(0, 0, 0, 0.3) 60%,
-      rgba(0, 0, 0, 0) 100%
-    ),
-    url('../img/bghome3.png') no-repeat center center / cover;
-  z-index: -1;
-  pointer-events: none;
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background:
+        linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.85),
+            rgba(0, 0, 0, 0.6) 30%,
+            rgba(0, 0, 0, 0.3) 60%,
+            rgba(0, 0, 0, 0) 100%
+        ),
+        url('../img/bghome3.png') no-repeat center center / cover;
+    z-index: -1;
+    pointer-events: none;
 }
 
-/* BARRA DE NAVEGAÇÃO */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgba(87, 87, 87, 0.7);
-  padding: 10px 30px;
-  border-radius: 50px;
-  margin: 20px auto;
-  width: 90%;
-  max-width: 1600px;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.logo img {
-  height: 50px;
-}
-
-.logo span {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-  flex: 1;
-}
-
-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 60px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav a {
-  color: #e0e0e0;
-  text-decoration: none;
-  font-size: 24px;
-  font-weight: 400;
-  transition: 0.3s;
-}
-
-nav a:hover {
-  color: #fff;
-}
-
-.perfil {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  overflow: hidden;
-  margin-left: 20px;
-}
-
-.perfil img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* MAIN HERO SECTION */
+/* HERO SECTION */
 .hero-section {
-  display: flex;
-  align-items: stretch;
-  position: relative;
-  z-index: 1;
-  flex-wrap: wrap;
-  min-height: auto; /* removida a altura fixa */
+    flex: 1; /* ocupa o espaço entre header e footer */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
 }
 
+/* CONTAINER DO CONTEÚDO */
 .content-container {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-  color: #fff;
-  padding: 30px 40px;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  position: relative;
-  z-index: 2;
-  max-height: none; /* altura máxima removida */
-  margin-bottom: 1vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #fff;
+    padding: 30px 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 1vh;
 }
 
 .content-container h1 {
-  font-size: 2.0rem;
-  margin-bottom: 40px;
-  line-height: 1.3;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    line-height: 1.3;
 }
 
 .content-container p {
-  font-size: 1.2rem;
-  margin-bottom: 40px;
-  max-width: 90%;
-  line-height: 1.6;
-  align-self: flex-start;
-  transform: translateY(20%);
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    line-height: 1.6;
 }
 
+/* BOTÃO PARTICIPAR */
 .cta-button {
-  display: inline-block;
-  background-color: transparent;
-  color: #fff;
-  border: 2px solid #ff1818;
-  padding: 16px 40px;
-  font-size: 1.2rem;
-  text-decoration: none;
-  border-radius: 30px;
-  transition: all 0.3s ease;
-  align-self: center;
-  margin-top: 40px; /* reduzido de 100px para 40px */
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #ff1818;
+    padding: 16px 40px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    align-self: center;
+    margin-top: 40px;
 }
 
 .cta-button:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
-.hero-section::before,
-.hero-section::after {
-  display: none;
+/* HEADER / NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(87, 87, 87, 0.7);
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1600px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.logo span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+nav ul {
+    display: flex;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/* PERFIL / LOGIN ICON */
+.perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* FOOTER */
 footer {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #ccc;
-  text-align: center;
-  padding: 8px 20px;
-  font-size: 0.9rem;
-  font-family: "Segoe UI", Arial, sans-serif;
-  margin: 0 auto;
-  width: 100%;
-  box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ccc;
+    text-align: center;
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* RESPONSIVIDADE */
+@media (max-width: 1024px) {
+    .content-container {
+        width: 60%;
+        padding: 20px 30px;
+    }
+}
+
 @media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 15px 20px;
-  }
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 20px;
+    }
 
-  nav {
-    width: 100%;
-    justify-content: flex-start;
-    margin-top: 10px;
-  }
+    nav {
+        width: 100%;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
 
-  nav ul {
-    gap: 30px;
-    flex-wrap: wrap;
-  }
+    nav ul {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
 
-  nav a {
-    font-size: 20px;
-  }
+    nav a {
+        font-size: 20px;
+    }
 
-  .perfil {
-    align-self: flex-end;
-    margin-top: 10px;
-  }
+    .perfil {
+        align-self: flex-end;
+        margin-top: 10px;
+    }
 
-  .content-container {
-    width: 100%;
-    border-radius: 30px;
-    padding: 20px;
-    max-height: none;
-    margin-bottom: 20px;
-  }
+    .content-container {
+        width: 100%;
+        border-radius: 30px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
 
-  .content-container h1 {
-    font-size: 2rem;
-  }
+    .content-container h1 {
+        font-size: 1.8rem;
+    }
 
-  .content-container p {
-    font-size: 1rem;
-    max-width: 100%;
-    transform: none;
-  }
+    .content-container p {
+        font-size: 1rem;
+    }
 
-  .cta-button {
-    width: 100%;
-    padding: 14px 0;
-    font-size: 1rem;
-    margin-top: 20px;
-  }
+    .cta-button {
+        width: 100%;
+        padding: 14px 0;
+        font-size: 1rem;
+        margin-top: 20px;
+    }
 
-  .hero-section {
-    min-height: auto;
-    flex-direction: column;
-  }
+    .hero-section {
+        flex-direction: column;
+        min-height: auto;
+    }
 }
