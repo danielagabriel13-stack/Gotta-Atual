@@ -19,7 +19,6 @@ namespace GOTTA.Controllers
             _logger = logger;
         }
 
-        // ✅ Páginas públicas
         [AllowAnonymous]
         public IActionResult Index() => View("Home");
 
@@ -29,7 +28,7 @@ namespace GOTTA.Controllers
         [AllowAnonymous]
         public IActionResult Login() => View();
 
-        // ✅ LOGIN COM VERIFICAÇÃO DE ETAPA
+   
         [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> Login(string usuarioLogin, string senha)
@@ -43,7 +42,7 @@ namespace GOTTA.Controllers
                 return View();
             }
 
-            // 🔐 Cria os claims do usuário
+
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, usuario.Nome),
@@ -64,18 +63,17 @@ namespace GOTTA.Controllers
                 authProperties
             );
 
-            // 🚧 Verifica se a etapa foi concluída
+        
             if (!usuario.etapaConcluida)
             {
-                // Redireciona o usuário para a verificação
                 return RedirectToAction("Index", "VerifyStep", new { usuarioId = usuario.Usuario_ID });
             }
 
-            // ✅ Se já concluiu, vai para a Home normalmente
+           
             return RedirectToAction("Index");
         }
 
-        // ✅ Logout
+     
         [Authorize]
         [HttpPost]
         public async Task<IActionResult> Logout()
@@ -84,7 +82,7 @@ namespace GOTTA.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        // ✅ Cadastro (Participe)
+       
         [AllowAnonymous]
         [HttpGet]
         public IActionResult Participe()
@@ -111,7 +109,7 @@ namespace GOTTA.Controllers
             return View(model);
         }
 
-        // ✅ Páginas protegidas (apenas logado)
+        
         [Authorize]
         public IActionResult Mega() => View();
 

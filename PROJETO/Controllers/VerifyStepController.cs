@@ -11,7 +11,7 @@ namespace GOTTA.Controllers
     {
         private readonly UsuarioRepository _usuarioRepo = new UsuarioRepository();
 
-        // Página que mostra a verificação
+   
         public IActionResult Index()
         {
             int usuarioId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
@@ -20,14 +20,14 @@ namespace GOTTA.Controllers
             if (usuario == null)
                 return RedirectToAction("Login", "Home");
 
-            // Se já concluiu a etapa, redireciona direto
+            
             if (usuario.etapaConcluida)
                 return RedirectToAction("Index", "Home");
 
-            return View(usuario); // envia para view
+            return View(usuario); 
         }
 
-        // Método que atualiza a etapa concluída
+        
         [HttpPost]
         public IActionResult Concluir()
         {
@@ -40,7 +40,7 @@ namespace GOTTA.Controllers
             usuario.etapaConcluida = true;
             _usuarioRepo.AtualizarEtapa(usuario);
 
-            // Redireciona para a Home ou qualquer página desejada
+           
             return RedirectToAction("Index", "Home");
         }
     }

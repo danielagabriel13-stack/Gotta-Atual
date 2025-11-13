@@ -1,15 +1,46 @@
-<header>
-    <div class="logo">
-        <img src="~/img/iconGotta2.png" alt="Logo">
-        <span>GOTTA</span>
-    </div>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - GOTTA</title>
 
-    <nav>
-        <ul>
-            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
-            <li><a asp-controller="Home" asp-action="Sobre">Sobre</a></li>
-            <li><a asp-controller="Home" asp-action="Participe">Participe</a></li>
-            <li><a asp-controller="Home" asp-action="Login">Login</a></li>
-        </ul>
-    </nav>
-</header>
+    <link rel="stylesheet" href="~/css/site.css" />
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <div class="logo">
+            <img src="~/img/iconGotta2.png" alt="Logo">
+            <span>GOTTA</span>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li><a asp-controller="Home" asp-action="Sobre">Sobre</a></li>
+                <li><a asp-controller="Home" asp-action="Participe">Participe</a></li>
+            </ul>
+        </nav>
+
+        <div class="perfil">
+            <a asp-controller="Usuario" asp-action="Login">
+                <img src="~/img/iconUser.png" alt="Entrar">
+            </a>
+        </div>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+        @RenderBody()
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>© 2025 GOTTA. Todos os direitos reservados.</p>
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

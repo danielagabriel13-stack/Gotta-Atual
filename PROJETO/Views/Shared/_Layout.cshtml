@@ -1,5 +1,5 @@
 @{
-    Layout = null; // não usa outro layout
+    Layout = null; 
     bool isLoggedIn = User?.Identity != null && User.Identity.IsAuthenticated;
     bool showFooter = ViewData["ShowFooter"] == null || (bool)ViewData["ShowFooter"] != false;
     bool hideNavbar = ViewData["HideNavbar"] != null && (bool)ViewData["HideNavbar"]; // 👈 controle da navbar

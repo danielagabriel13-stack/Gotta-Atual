@@ -1,6 +1,24 @@
 ﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1; 
+}
+
+
 a.navbar-brand {
   white-space: normal;
   text-align: center;
@@ -48,10 +66,7 @@ button.accept-policy {
   line-height: 60px;
 }
 
-/* ==========================================================
-   ADIÇÃO: ESTILO DO BOTÃO DE SAIR (Logout)
-   ========================================================== */
-/* === BOTÃO DE SAIR (Logout) === */
+
 .logout-form {
   display: inline-block;
   margin: 0;
@@ -60,7 +75,7 @@ button.accept-policy {
 }
 
 .logout-btn {
-  background: transparent; /* sem fundo */
+  background: transparent; 
   border: none;
   cursor: pointer;
   padding: 5px;
@@ -71,10 +86,10 @@ button.accept-policy {
 }
 
 .logout-btn img {
-  height: 42px;        /* aumenta o tamanho do ícone */
+  height: 42px;        
   width: auto;
   vertical-align: middle;
-  filter: brightness(0.9) contrast(1.2); /* melhora visibilidade do ícone */
+  filter: brightness(0.9) contrast(1.2); 
 }
 
 .logout-btn:hover {
@@ -82,6 +97,11 @@ button.accept-policy {
   transform: scale(1.08);
   filter: brightness(1.1);
 }
+
+
+
+
+
 
 /*
 esse é o _Layout.css /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
