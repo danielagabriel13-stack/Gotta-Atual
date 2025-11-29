@@ -9,85 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GOTTA
 build_property.RootNamespace = GOTTA
-build_property.ProjectDir = C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\
+build_property.ProjectDir = D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\gotta 28.11.25\Gotta-Atual\PROJETO\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO
+build_property.MSBuildProjectDirectory = D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\gotta 28.11.25\Gotta-Atual\PROJETO
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/simple way to choose/hammer/Gotta-Atual/PROJETO/Views/Home/contato.cshtml]
+[D:/Daniela/_ FATEC/Sementre 3/7º - Desenvolvimento Web III/gotta 28.11.25/Gotta-Atual/PROJETO/Views/Home/contato.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb250YXRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/simple way to choose/hammer/Gotta-Atual/PROJETO/Views/Home/home.cshtml]
+[D:/Daniela/_ FATEC/Sementre 3/7º - Desenvolvimento Web III/gotta 28.11.25/Gotta-Atual/PROJETO/Views/Home/home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxob21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/simple way to choose/hammer/Gotta-Atual/PROJETO/Views/Home/Index.cshtml]
+[D:/Daniela/_ FATEC/Sementre 3/7º - Desenvolvimento Web III/gotta 28.11.25/Gotta-Atual/PROJETO/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/simple way to choose/hammer/Gotta-Atual/PROJETO/Views/Home/login.cshtml]
+[D:/Daniela/_ FATEC/Sementre 3/7º - Desenvolvimento Web III/gotta 28.11.25/Gotta-Atual/PROJETO/Views/Home/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxsb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/simple way to choose/hammer/Gotta-Atual/PROJETO/Views/Home/mapa.cshtml]
+[D:/Daniela/_ FATEC/Sementre 3/7º - Desenvolvimento Web III/gotta 28.11.25/Gotta-Atual/PROJETO/Views/Home/mapa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxtYXBhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/simple way to choose/hammer/Gotta-Atual/PROJETO/Views/Home/mega.cshtml]
+[D:/Daniela/_ FATEC/Sementre 3/7º - Desenvolvimento Web III/gotta 28.11.25/Gotta-Atual/PROJETO/Views/Home/mega.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxtZWdhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/simple way to choose/hammer/Gotta-Atual/PROJETO/Views/Home/participe.cshtml]
+[D:/Daniela/_ FATEC/Sementre 3/7º - Desenvolvimento Web III/gotta 28.11.25/Gotta-Atual/PROJETO/Views/Home/participe.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwYXJ0aWNpcGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/simple way to choose/hammer/Gotta-Atual/PROJETO/Views/Home/Privacy.cshtml]
+[D:/Daniela/_ FATEC/Sementre 3/7º - Desenvolvimento Web III/gotta 28.11.25/Gotta-Atual/PROJETO/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/simple way to choose/hammer/Gotta-Atual/PROJETO/Views/Home/sobre2.cshtml]
+[D:/Daniela/_ FATEC/Sementre 3/7º - Desenvolvimento Web III/gotta 28.11.25/Gotta-Atual/PROJETO/Views/Home/sobre2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzb2JyZTIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/simple way to choose/hammer/Gotta-Atual/PROJETO/Views/Shared/Error.cshtml]
+[D:/Daniela/_ FATEC/Sementre 3/7º - Desenvolvimento Web III/gotta 28.11.25/Gotta-Atual/PROJETO/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/simple way to choose/hammer/Gotta-Atual/PROJETO/Views/Shared/_Layout.cshtml]
+[D:/Daniela/_ FATEC/Sementre 3/7º - Desenvolvimento Web III/gotta 28.11.25/Gotta-Atual/PROJETO/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/simple way to choose/hammer/Gotta-Atual/PROJETO/Views/Shared/_Layout1.cshtml]
+[D:/Daniela/_ FATEC/Sementre 3/7º - Desenvolvimento Web III/gotta 28.11.25/Gotta-Atual/PROJETO/Views/Shared/_Layout1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/simple way to choose/hammer/Gotta-Atual/PROJETO/Views/Shared/_NavAnonimo.cshtml]
+[D:/Daniela/_ FATEC/Sementre 3/7º - Desenvolvimento Web III/gotta 28.11.25/Gotta-Atual/PROJETO/Views/Shared/_NavAnonimo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZBbm9uaW1vLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/simple way to choose/hammer/Gotta-Atual/PROJETO/Views/Shared/_NavAutenticado.cshtml]
+[D:/Daniela/_ FATEC/Sementre 3/7º - Desenvolvimento Web III/gotta 28.11.25/Gotta-Atual/PROJETO/Views/Shared/_NavAutenticado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZBdXRlbnRpY2Fkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/simple way to choose/hammer/Gotta-Atual/PROJETO/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Daniela/_ FATEC/Sementre 3/7º - Desenvolvimento Web III/gotta 28.11.25/Gotta-Atual/PROJETO/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/simple way to choose/hammer/Gotta-Atual/PROJETO/Views/VerifyStep/index.cshtml]
+[D:/Daniela/_ FATEC/Sementre 3/7º - Desenvolvimento Web III/gotta 28.11.25/Gotta-Atual/PROJETO/Views/VerifyStep/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyaWZ5U3RlcFxpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/simple way to choose/hammer/Gotta-Atual/PROJETO/Views/_ViewImports.cshtml]
+[D:/Daniela/_ FATEC/Sementre 3/7º - Desenvolvimento Web III/gotta 28.11.25/Gotta-Atual/PROJETO/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samanta/Desktop/PEDRO LINDO E LEGAL/Proj GOTTA/gotta 23.10/simple way to choose/hammer/Gotta-Atual/PROJETO/Views/_ViewStart.cshtml]
+[D:/Daniela/_ FATEC/Sementre 3/7º - Desenvolvimento Web III/gotta 28.11.25/Gotta-Atual/PROJETO/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

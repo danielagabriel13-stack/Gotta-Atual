@@ -1,3 +1,4 @@
+
 using MySql.Data.MySqlClient;
 using GOTTA.Database;
 using GOTTA.Models;
