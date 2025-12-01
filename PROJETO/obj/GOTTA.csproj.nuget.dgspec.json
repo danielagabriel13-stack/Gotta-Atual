@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Daniela\\_ FATEC\\Sementre 3\\7º - Desenvolvimento Web III\\gotta 28.11.25\\Gotta-Atual\\PROJETO\\GOTTA.csproj": {}
+    "C:\\Users\\samanta\\Desktop\\PEDRO LINDO E LEGAL\\Proj GOTTA\\gotta 23.10\\simple way to choose\\hammer\\Gotta-Atual\\PROJETO\\GOTTA.csproj": {}
   },
   "projects": {
-    "D:\\Daniela\\_ FATEC\\Sementre 3\\7º - Desenvolvimento Web III\\gotta 28.11.25\\Gotta-Atual\\PROJETO\\GOTTA.csproj": {
+    "C:\\Users\\samanta\\Desktop\\PEDRO LINDO E LEGAL\\Proj GOTTA\\gotta 23.10\\simple way to choose\\hammer\\Gotta-Atual\\PROJETO\\GOTTA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Daniela\\_ FATEC\\Sementre 3\\7º - Desenvolvimento Web III\\gotta 28.11.25\\Gotta-Atual\\PROJETO\\GOTTA.csproj",
+        "projectUniqueName": "C:\\Users\\samanta\\Desktop\\PEDRO LINDO E LEGAL\\Proj GOTTA\\gotta 23.10\\simple way to choose\\hammer\\Gotta-Atual\\PROJETO\\GOTTA.csproj",
         "projectName": "GOTTA",
-        "projectPath": "D:\\Daniela\\_ FATEC\\Sementre 3\\7º - Desenvolvimento Web III\\gotta 28.11.25\\Gotta-Atual\\PROJETO\\GOTTA.csproj",
-        "packagesPath": "C:\\Users\\Daniela Gabriela\\.nuget\\packages\\",
-        "outputPath": "D:\\Daniela\\_ FATEC\\Sementre 3\\7º - Desenvolvimento Web III\\gotta 28.11.25\\Gotta-Atual\\PROJETO\\obj\\",
+        "projectPath": "C:\\Users\\samanta\\Desktop\\PEDRO LINDO E LEGAL\\Proj GOTTA\\gotta 23.10\\simple way to choose\\hammer\\Gotta-Atual\\PROJETO\\GOTTA.csproj",
+        "packagesPath": "C:\\Users\\samanta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samanta\\Desktop\\PEDRO LINDO E LEGAL\\Proj GOTTA\\gotta 23.10\\simple way to choose\\hammer\\Gotta-Atual\\PROJETO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Daniela Gabriela\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\samanta\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

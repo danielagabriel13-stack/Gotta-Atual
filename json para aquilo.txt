@@ -10,3 +10,32 @@
   },
   "AllowedHosts": "*"
 }
+
+Root Dani:
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "server=localhost;port=3306;database=gotta_db;user=root;password=Daniela7857!;charset=utf8mb4;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+
+Root PH:
+
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "server=localhost;port=3306;database=gotta_db;user=root;password=D1nos;charset=utf8mb4;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}

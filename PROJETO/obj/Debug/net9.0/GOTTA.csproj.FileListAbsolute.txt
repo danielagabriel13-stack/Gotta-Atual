@@ -377,7 +377,6 @@ C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way t
 C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
 C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\scopedcss\bundle\GOTTA.styles.css
-C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\compressed\2r9boj2v5m-5eruyevgeo.gz
 C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\compressed\08xq245vlg-nkuowfgr3b.gz
 C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\compressed\vcci53auom-y8oip59w4m.gz
 C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\compressed\9v4tb565yv-wk9kjwluqr.gz
@@ -388,7 +387,6 @@ C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way t
 C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\compressed\ce3vjnfo7v-5ro6yt79zw.gz
 C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\compressed\e3e2qqmkmq-tw2gsehrly.gz
 C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\compressed\jb8a5cx7f1-rtqnzn2k3r.gz
-C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\compressed\a6izhitxui-w83wvm1h91.gz
 C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\compressed\70cf6942qw-61n19gt1b8.gz
 C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\compressed\dehnmvg1zm-xtxxf3hu2r.gz
 C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\compressed\inat7p9dfs-t1cqhe9u97.gz
@@ -460,7 +458,6 @@ C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way t
 C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\GOTTA.pdb
 C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\GOTTA.genruntimeconfig.cache
 C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\ref\GOTTA.dll
-C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\compressed\lh8yf3gc3u-7rf9h6ey53.gz
 D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\gotta 28.11.25\Gotta-Atual\PROJETO\bin\Debug\net9.0\appsettings.Development.json
 D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\gotta 28.11.25\Gotta-Atual\PROJETO\bin\Debug\net9.0\appsettings.json
 D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\gotta 28.11.25\Gotta-Atual\PROJETO\bin\Debug\net9.0\GOTTA.staticwebassets.runtime.json
@@ -585,3 +582,6 @@ D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\gotta 28.11.25\Gotta
 D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\gotta 28.11.25\Gotta-Atual\PROJETO\obj\Debug\net9.0\GOTTA.pdb
 D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\gotta 28.11.25\Gotta-Atual\PROJETO\obj\Debug\net9.0\GOTTA.genruntimeconfig.cache
 D:\Daniela\_ FATEC\Sementre 3\7º - Desenvolvimento Web III\gotta 28.11.25\Gotta-Atual\PROJETO\obj\Debug\net9.0\ref\GOTTA.dll
+C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\compressed\lh8yf3gc3u-ros6s7agsi.gz
+C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\compressed\a6izhitxui-8zfvei3ot6.gz
+C:\Users\samanta\Desktop\PEDRO LINDO E LEGAL\Proj GOTTA\gotta 23.10\simple way to choose\hammer\Gotta-Atual\PROJETO\obj\Debug\net9.0\compressed\2r9boj2v5m-34qoc95s4g.gz

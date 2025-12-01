@@ -10,96 +10,46 @@
   <div class="pg">
 
     <!-- CONTATO -->
-    <main>
-      <div class="container1" id="contato">
-    
-        <div class="formulario">
-          <h2>Contate-nos</h2>
-          <form>
-            <input type="text" placeholder="Nome Completo" required><br>
-            <input type="email" placeholder="E-mail" required><br>
-            <textarea placeholder="Dúvida ou Sugestão"></textarea><br>
-            <div class="checkbox">
-              <label>
-                <input type="checkbox" required>
-                Concordo com os 
-                <a href="#" id="openModal">Termos de uso</a> e 
-                <a href="#" id="openModal2">Política de privacidade</a>
-              </label>
-            </div>
-            <button type="submit">Enviar</button>
-          </form>
-        </div>
+  <main>
+  <div class="container1" id="contato">
 
-        
-        <div class="info">
-          <p><strong>Telefone</strong><br>(00) 00000-0000</p>
-          <p><strong>E-mail</strong><br><a href="mailto:adm@gotta.com.br">adm@gotta.com.br</a></p>
-          <p>
-            <a href="https://www.instagram.com/seuusuario" target="_blank">
-              <img src="@Url.Content("~/img/iconInsta.png")" alt="Instagram" style="width: 32px; height: 32px;">
-            </a>
-          </p>
-        </div>
-      </div>
-    </main>
+    <div class="formulario">
+      <h2>Entre em Contato Conosco</h2>
+      <p>
+        Nossa equipe está sempre à disposição para esclarecer dúvidas, receber sugestões
+        ou ouvir suas ideias. Caso precise falar conosco, utilize um dos canais abaixo.
+        Ficaremos felizes em ajudar da melhor forma possível.
+      </p>
 
-
-  <!-- MODALS -->
-  <div id="modal" class="modal">
-    <div class="modal-content">
-      <span class="close" id="closeModal">&times;</span>
-      <h2>Termos de Uso</h2>
-      <p>Ana Catarina... Que nome feio.</p>
+      <p>
+        Trabalhamos para manter um atendimento rápido e eficiente, portanto,
+        escolha o meio de contato que achar mais conveniente.
+      </p>
     </div>
-  </div>
 
+    <div class="info">
+      <p><strong>Telefone</strong><br>(11) 96173-1007</p>
 
-  <div id="modal2" class="modal">
-    <div class="modal-content">
-      <span class="close" id="closeModal2">&times;</span>
-      <h2>Política de Privacidade</h2>
-      <p>Você concorda em partilhar sua alma com o Diabo?</p>
+      <p><strong>E-mail</strong><br>
+        <a href="mailto:GOTTAadm@gmail.com">GOTTAadm@gmail.com</a><br>
+      </p>
+
+      <p>
+        <strong>Instagram</strong><br>
+        <a href="https://www.instagram.com/seuusuario" target="_blank">
+          <img src="@Url.Content("~/img/iconInsta.png")" alt="Instagram" style="width: 32px; height: 32px;">
+        </a><br>
+        <br>
+      </p>
+        <span>
+          Você pode nos enviar sua dúvida, proposta, sugestão ou qualquer outro assunto.
+          Respondemos normalmente em até 24 horas úteis.
+        </span>
+      <p>
+        Nosso objetivo é facilitar a comunicação e garantir que sua experiência com o GOTTA
+        seja sempre a melhor possível.
+      </p>
     </div>
+
   </div>
-
-  <!-- SCRIPT DOS MODAIS -->
-  <script>
-    
-    const modal = document.getElementById("modal");
-    const openModal = document.getElementById("openModal");
-    const closeModal = document.getElementById("closeModal");
-
-    openModal.onclick = function(e) {
-      e.preventDefault();
-      modal.style.display = "block";
-    }
-
-    closeModal.onclick = function() {
-      modal.style.display = "none";
-    }
-
-
-    const modal2 = document.getElementById("modal2");
-    const openModal2 = document.getElementById("openModal2");
-    const closeModal2 = document.getElementById("closeModal2");
-
-    openModal2.onclick = function(e) {
-      e.preventDefault();
-      modal2.style.display = "block";
-    }
-
-    closeModal2.onclick = function() {
-      modal2.style.display = "none";
-    }
-
-    
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-      if (event.target == modal2) {
-        modal2.style.display = "none";
-      }
-    }
-  </script>
+</main>
